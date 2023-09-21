@@ -1,0 +1,629 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+
+
+main {
+    width: 100vw;
+    height: auto;
+}
+
+
+html {
+    font-size: 16px;
+
+    /* 1rem=10px */
+}
+
+/* universal selector */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+
+}
+
+
+/* Header section */
+
+.header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+    background-image: linear-gradient(to top left, #0f272e, #fa0c43);
+
+
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: whitesmoke !important;
+    font-size: 1rem;
+    text-transform: uppercase;
+
+
+}
+
+.navbar-brand {
+    color: #efa40e !important;
+    font-size: 2rem !important;
+}
+
+
+.navbar-nav .home .nav-link {
+    color: #efa40e !important;
+
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    border-bottom: 2px solid #efa40e;
+}
+
+.signIn {
+    background-color: #474745 !important;
+    border: none !important;
+    border-radius: none !important;
+    text-transform: uppercase;
+}
+
+.LoginIn {
+    border-bottom: 2px solid #efa40e;
+    background-color: #efa40e !important;
+    border: none !important;
+    border-radius: none !important;
+    text-transform: uppercase;
+
+}
+
+
+
+
+
+/* Hero section */
+
+.Hero_section {
+    background-color: #0f272e;
+    color: white;
+    padding: 12rem;
+    border-bottom-right-radius: 10rem;
+    width: 100vw;
+    background-image: linear-gradient(to top left, #0f272e, #fa0c43);
+
+
+}
+
+.hero_head {
+    font-size:6rem !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hero_head::first-line {
+    color: #efa40e;
+}
+
+.learnmore {
+    background-color: #efa40e !important;
+    border: none !important;
+    text-transform: uppercase;
+
+}
+
+.viewservice {
+    background-color: #474745 !important;
+    border: none !important;
+    text-transform: uppercase;
+
+}
+
+.Hero_img {
+    width: 38rem;
+    height: 30rem;
+    border-radius: 10%;
+}
+
+.Hero_section p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    !important;
+}
+
+
+
+
+/* about us section */
+
+.about_us {
+    background-color: white;
+    padding: 5rem;
+    border-top-left-radius: 5rem;
+
+}
+
+.content_box {
+    border-top: 1px solid #efa40e;
+    padding: 2rem;
+}
+
+.about_leftContent img {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+
+}
+
+.about_rightContent .prah {
+    text-transform: capitalize;
+    color: #efa40e !important;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.about_rightContent .prah::after {
+    content: "--------";
+    color: #efa40e;
+}
+
+.about_rightContent a {
+    background-color: #efa40e !important;
+    border: none !important;
+    margin-top: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.about_rightContent {
+    background-image: linear-gradient(#0f272e, rgb(254, 232, 232));
+    padding: 2rem;
+    border-radius: 2rem 0 2rem 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.about_rightContent,
+h2,
+p {
+    color: rgb(243, 224, 224) !important;
+}
+
+
+
+
+/* our service page */
+
+.our_service {
+    padding: 3rem;
+    background-color: #0f272e;
+    z-index: -1;
+    border-radius: 0 5rem 0 0;
+    padding-top:8rem !important;
+
+
+}
+
+.our_service h2 {
+    color: #efa40e !important;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+}
+
+.our_service h4 {
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+.card {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    background-color: #959898 !important;
+    border: none !important;
+}
+
+.btn-primary {
+    background-color: #0f272e !important;
+    border: none !important;
+}
+
+.learnmore2 {
+    background-color: #efa40e !important;
+    margin-left: 8rem;
+    margin-top: 5rem;
+    border: none !important;
+}
+
+.service_content img {
+    width: 18rem;
+    height: 15rem;
+    object-position: center;
+    object-fit: cover;
+}
+
+
+/* about us 2 */
+
+.about_us2 {
+    background-color: #edf1f1;
+    padding: 5rem;
+    margin-top: 3rem;
+    border-radius: 5rem 0 0 0;
+
+}
+
+.about_rightContent2 {
+    padding: 1rem;
+
+}
+
+.about_rightContent2,
+h2,
+p {
+    color: rgb(21, 13, 13) !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+.content_box2 {
+
+    padding: 2rem;
+}
+
+
+.btn-primary1 {
+    background-color: #0f272e !important;
+    border: none !important;
+    margin-top: 2rem !important;
+    color: white !important;
+}
+
+.prah2 {
+    color: #0f272e;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.Hero_section p {
+    color: white !important;
+}
+
+.about_leftContent2 img {
+    width: 28rem;
+    height: 28rem;
+
+}
+
+
+.pcontent {
+    color: white !important;
+}
+
+/* testimonial section */
+
+
+.testimonial_section {
+    padding: 5rem;
+
+}
+
+
+
+.testimonial_right {
+    background-image: url("imgFolder/img4.jpeg");
+    width: 30rem;
+    height: 30rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5rem !important;
+}
+
+.testimonial_right h1 {
+    font-size: 5rem !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+
+.heading {
+    color: #efa40e !important;
+    border-bottom: 2px solid #efa40e;
+    display: inline-block;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+
+}
+
+.testimonial_section .news_section {
+    padding: 5rem !important;
+    background-color: #0f272e;
+    color: white !important;
+    margin: 5rem !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.news_prah {
+    color: white !important;
+    padding-top: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.heading2 {
+    color: #efa40e !important;
+    border-bottom: 2px solid #efa40e;
+    display: inline-block;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.news_img {
+    width: 30rem;
+    height: 20rem;
+}
+
+.gettouch {
+    background-color: #efa40e;
+    padding: 6rem;
+    margin: 0px;
+}
+
+.btn-primary3 {
+
+    background-color: #0f272e !important;
+    color: #edf1f1 !important;
+    width: 10rem;
+    height: 4rem;
+    box-sizing: border-box;
+    padding-top: 1rem !important;
+}
+
+
+
+
+
+/* footer section */
+
+.footer {
+    padding: 5rem;
+    background-image: linear-gradient(#0f272e, #fa0c43);
+
+}
+
+.subbtn {
+    color: white;
+    background-color: #efa40e !important;
+
+}
+
+/* sub footer */
+
+.subfooter {
+    height: auto;
+    box-sizing: border-box;
+    background-color: #0f272e;
+    padding-top:6rem;
+
+
+}
+
+.footer-text p {
+    font-size: 12px;
+    color: rgb(249, 244, 244);
+}
+
+.address-part a p {
+    text-decoration: none;
+    color: #b6e9f8;
+}
+
+.address-part a {
+    text-decoration: none;
+}
+
+
+.icons.fa-brands {
+    width: 50px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+h5 {
+    color: #b6e9f8 !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.p2 {
+    color: white !important;
+}
+
+/* sunfooter2 */
+
+.subfooter2 {
+    padding: 1rem;
+    color: white;
+    background: #e9eced;
+    font-size: 1rem;
+
+}
+
+
+
+
+
+/*form*/
+
+  .form
+  {
+    background-color: antiquewhite;
+    padding:4rem !important;
+  }
+ 
+.form_heading
+{
+    padding-top:2rem;
+}
+
+.form-group
+{
+    margin-top:1rem;
+}
+/*media query */
+
+
+@media (min-width:0px) and (max-width:480px) {
+
+
+
+
+
+  /*header section */
+
+
+
+    .navbar-collapse
+    {
+        padding:3rem;
+    }
+
+
+    .LoginIn {
+        margin-left:1rem;
+    }
+
+    /*hero section */
+
+    .Hero_img {
+        width: 18rem;
+        height: 18rem;
+        margin-right: 3rem !important;
+        margin-top: 3rem;
+        padding: 0rem;
+        border-radius:0rem;
+
+    }
+
+    .Hero_section {
+        border-radius: 0rem;
+        padding: 3rem;
+    }
+
+    .Hero_section p {
+        padding-top: 2rem !important;
+       
+    }
+    
+     
+    .hero_head {
+        padding-top:4rem;
+        font-size:4rem !important;
+        
+    }
+    
+
+    /*about section*/
+
+
+    .about_us {
+        padding-top: 1rem;
+        border-radius:0rem;
+    }
+
+    .about_us2 {
+        border-radius: 0rem;
+
+    }
+
+    .about_leftContent img {
+        width: 18rem;
+        height: 18rem;
+
+    }
+
+    .about_rightContent {
+        margin-top: 3rem !important;
+    }
+
+
+    .service_content {
+        position: relative;
+        right: 3rem;
+    }
+
+    .about_leftContent2 img {
+        width: 18rem;
+        height: 18rem;
+        position: relative;
+        right: 1rem;
+    }
+
+
+    /* testimonial section */
+
+    .testimonial_right h1 {
+        font-size: 3rem !important;
+    }
+
+    .news_section {
+        position: relative;
+        right: 5rem
+    }
+
+    .news_section img {
+        width: 18rem;
+        height: 18rem;
+        position: relative;
+        right: 4.5rem
+    }
+
+   .subbtn {
+        position: relative;
+        right: 1rem;
+        width: 7rem;
+        font-size:1rem !important;
+        
+    }
+
+    
+    .testimonial_section {
+        border-radius: 0rem;
+    }
+
+    /* our services */
+
+    .our_service {
+        
+        border-radius: 0rem;
+    }
+    
+    .our_service h2 h4
+    {
+font-size:.5rem !important;
+    }
+    
+   
+    /* our send code */
+   
+    
+ 
+
+}
